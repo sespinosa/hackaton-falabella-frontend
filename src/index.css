@@ -1,5 +1,48 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: sans-serif;
+  height: 100% !important;
+}
+
+#root {
+  height: 100% !important;
+}
+
+.ceci-body {
+  width: 100% !important;
+  height: 100% !important;
+  /* overflow: hidden !important; */
+}
+
+.mic-container {
+  height: 300px !important;
+}
+
+.mic-container > div {
+  height: 300px !important;
+}
+
+.full-width {
+  width: 100% !important;
+}
+
+.full-width > i {
+  margin: auto !important;
+}
+
+.ui.visible.top.sidebar~.pusher.ceci-pusher {
+  -webkit-transform: translate3d(0,300px,0) !important;
+  transform: translate3d(0,300px,0) !important;
+}
+
+img.logo-placeholder {
+  display: block;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 700px !important;
+  width: auto !important;
+}
+
+.card-single-item {
+  margin-top: 50px !important;
+  width: 700px !important;
 }
